@@ -1,0 +1,237 @@
+html{
+    box-sizing: border-box;
+}
+*, 
+*::before, 
+*::after{
+    box-sizing: inherit;
+}
+body {
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+img {
+    display: block;
+}
+.container {
+    width: 1150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-section {
+    background-image: url(../images/Главный-экран.jpg);
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    max-width: 1920px;
+    height: 940px;
+    margin: 0 auto;
+}
+.ecs {
+    padding-top: 48px;
+    padding-bottom: 64px;
+}
+.ecs-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.20;
+    color: #000000;
+}
+.direction {
+    padding-top: 44px;
+    padding-bottom: 80px;
+    background-color: rgba(112, 207, 41,0.07);
+}
+.direction-title {
+    font-family: PT Serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+}
+.direction-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333333;
+}
+.populyarity {
+    padding-top: 76px;
+    padding-bottom: 80px;   
+}
+.populyarity-title {
+    font-family: PT Serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.35;
+    color: #000000;
+
+}
+.map {
+    padding-top: 70px;
+}
+.map-title {
+    font-family: PT Serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+}
+.about-baikal {
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.about-baikal-title {
+    font-family: PT Serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.35;
+    color: #000000;
+}
+.about-baikal-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #333333;
+}
+.photogallery {
+    padding-top: 46px;
+    padding-bottom: 80px;
+    background-color: rgba(63, 169, 245, 0.07);
+}
+.photogallery-title {
+    font-family: PT Serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000000;
+}
+.photogallery-silka {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.20;
+    text-decoration-line: underline;
+    color: #0050B2;
+}
+.baikal-rest {
+    padding-top: 80px;
+    padding-bottom: 65px;
+}
+.baikal-rest-title {
+    font-family: PT Serif;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.baikal-rest-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #333333;
+}
+.advantages {
+    padding-top: 41px;
+    padding-bottom: 85px;
+}
+.advantages-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}
+.advantages-cifre {
+    font-family: PT Serif;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 130%;
+    color: #64BD22;
+}
+.Book-now {
+    padding-top: 48px;
+    padding-bottom: 76px;
+    background-color: rgba(245, 245, 247, 1);
+}
+.Book-now {
+    font-family: PT Serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+}
+.footer {
+    padding-top: 39px;
+    padding-bottom: 45px;
+    background-color: #202020;
+}
+.footer-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.20;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer-list {
+font-weight: normal;
+font-size: 16px;
+line-height: 130%;
+color: #FFFFFF;
+opacity: 0.8;
+}
+.footer-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.footer-sub-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.footer-politica {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 130%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.footer-design {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
