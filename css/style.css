@@ -6,12 +6,19 @@ html{
 *::after{
     box-sizing: inherit;
 }
+:root {
+    --title-color: #000000;
+    --main-text: #333333;
+    --interactive-text: #0050B2;
+    --green-for-the-elements: #64BD22;
+    --main-white-color: #FFFFFF;
+}
 body {
     font-family: 'PT Serif', serif;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     margin: 0;
-    background-color: #FFFFFF;
+    background-color: var(--main-white-color);
 }
 ul {
     list-style: none;
@@ -60,7 +67,7 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.20;
-    color: #000000;
+    color: var(--title-color);
 }
 .direction {
     padding-top: 44px;
@@ -73,13 +80,13 @@ img {
     font-size: 30px;
     line-height: 130%;
     text-align: center;
-    color: #000000;
+    color: var(--title-color);
 }
 .direction-text {
     font-weight: normal;
     font-size: 16px;
     line-height: 130%;
-    color: #333333;
+    color: var(--main-text);
 }
 .populyarity {
     padding-top: 76px;
@@ -90,8 +97,63 @@ img {
     font-weight: bold;
     font-size: 30px;
     line-height: 1.35;
-    color: #000000;
+    color: var(--title-color);
+}
+.populyarity-position-title {
+    position: absolute;
+    top: 16px;
+    left: 17px;
+    color: var(--main-white-color);
+    width: 218px;
+    height: 74px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+}
+.populyarity-position-text {
+    position: absolute;
+    bottom: 19px;
+    left: 17px;
+    color: var(--main-white-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+}
+.populyarity-position-title-dacan {
+    position: absolute;
+    top: 27px;
+    left: 33px;
+    color: var(--main-white-color);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+}
+.populyarity-position-text-dacan {
+    position: absolute;
+    bottom: 19px;
+    left: 33px;
+    width: 218px;
+    height: 42px;
+    color: var(--main-white-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+}
+.populyarity-position-title-all {
+    position: absolute;
+    width: 210px;
+    height: 65px;
+    top: 92px;
+    left: 17px;
+    color: var(--main-white-color);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
 
+}
+.populyarity-position {
+    position: relative;
 }
 .map {
     padding-top: 70px;
@@ -102,7 +164,7 @@ img {
     font-size: 30px;
     line-height: 130%;
     text-align: center;
-    color: #000000;
+    color: var(--title-color);
 }
 .about-baikal {
     padding-top: 70px;
@@ -113,13 +175,13 @@ img {
     font-weight: bold;
     font-size: 30px;
     line-height: 1.35;
-    color: #000000;
+    color: var(--title-color);
 }
 .about-baikal-text {
     font-weight: normal;
     font-size: 18px;
     line-height: 140%;
-    color: #333333;
+    color: var(--main-text);
 }
 .photogallery {
     padding-top: 46px;
@@ -131,14 +193,14 @@ img {
     font-weight: bold;
     font-size: 30px;
     line-height: 130%;
-    color: #000000;
+    color: var(--title-color);
 }
 .photogallery-silka {
     font-weight: normal;
     font-size: 16px;
     line-height: 1.20;
     text-decoration-line: underline;
-    color: #0050B2;
+    color: var(--interactive-text);
 }
 .baikal-rest {
     padding-top: 80px;
@@ -151,13 +213,13 @@ img {
     line-height: 130%;
     text-align: center;
     text-transform: uppercase;
-    color: #000000;
+    color: var(--title-color);
 }
 .baikal-rest-text {
     font-weight: normal;
     font-size: 18px;
     line-height: 140%;
-    color: #333333;
+    color: var(--main-text);
 }
 .advantages {
     padding-top: 41px;
@@ -167,14 +229,14 @@ img {
     font-weight: 500;
     font-size: 20px;
     line-height: 130%;
-    color: #000000;
+    color: var(--title-color);
 }
 .advantages-cifre {
     font-family: PT Serif;
     font-weight: bold;
     font-size: 58px;
     line-height: 130%;
-    color: #64BD22;
+    color: var(--green-for-the-elements);
 }
 .Book-now {
     padding-top: 48px;
@@ -187,7 +249,7 @@ img {
     font-size: 30px;
     line-height: 130%;
     text-align: center;
-    color: #000000;
+    color: var(--title-color);
 }
 .footer {
     padding-top: 39px;
@@ -199,26 +261,26 @@ img {
     font-size: 16px;
     line-height: 1.20;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--main-white-color);
 }
 .footer-list {
 font-weight: normal;
 font-size: 16px;
 line-height: 130%;
-color: #FFFFFF;
+color: var(--main-white-color);
 opacity: 0.8;
 }
 .footer-text {
     font-weight: 500;
     font-size: 14px;
     line-height: 130%;
-    color: #FFFFFF;
+    color: var(--main-white-color);
 }
 .footer-sub-text {
     font-weight: normal;
     font-size: 14px;
     line-height: 130%;
-    color: #FFFFFF;
+    color: var(--main-white-color);
     opacity: 0.8;
 }
 .footer-politica {
@@ -226,12 +288,12 @@ opacity: 0.8;
     font-size: 14px;
     line-height: 130%;
     text-decoration-line: underline;
-    color: #FFFFFF;
+    color: var(--main-white-color);
 }
 .footer-design {
     font-weight: normal;
     font-size: 12px;
     line-height: 130%;
-    color: #FFFFFF;
+    color: var(--main-white-color);
     opacity: 0.5;
 }
