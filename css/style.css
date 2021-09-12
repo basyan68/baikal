@@ -57,8 +57,9 @@ img {
 .hero-section {
     background-image: url(../images/Главный-экран.jpg);
     max-width: 1920px;
-    height: 940px;
     margin: 0 auto;
+    padding-top: 226px;
+    padding-bottom: 33px;
 }
 .header-text-chill {
     font-family: PT Serif;
@@ -68,8 +69,17 @@ img {
     color: #FFFFFF;
 }
 .scrol {
+    display: block;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 184px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 .header-text-tur {
     font-weight: normal;
@@ -161,7 +171,10 @@ img {
     border-radius: 22px;
     background-color: transparent;
     padding: 13px 23px 13px 28px;
-    margin-left: auto;
+    text-transform: uppercase;
+}
+.hero-strelka-svg {
+    display: flex;
 }
 .container-hero {
 
