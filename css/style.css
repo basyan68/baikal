@@ -82,8 +82,6 @@ img {
     font-size: 18px;
     line-height: 130%;
     color: #FFFFFF;
-    padding-top: 28px;
-    padding-bottom: 28px;
 }
 .contacts-icon {
     margin-right: 13px;
@@ -91,7 +89,7 @@ img {
 .page-header-top {
     display: flex;
     align-items: center;
-    /* margin-bottom: 39px; */
+    padding-top: 18px;
 }
 .header-logo-position {
     display: flex;
@@ -109,6 +107,7 @@ img {
     color: #FFFFFF;
     display: flex;
     align-items: center;
+    margin-right: 179px;
 }
 .logo-header-svg img {
     margin-right: 20px;
@@ -135,6 +134,10 @@ img {
 .nav-header {
     display: flex;
 }
+.nav-header a {
+    padding: 20px 0;
+    display: block;
+}
 .nav-header .item {
     margin-right: 32px;
 }
@@ -157,7 +160,7 @@ img {
     box-sizing: border-box;
     border-radius: 22px;
     background-color: transparent;
-    padding: 19px 53px 20px 53px;
+    padding: 13px 23px 13px 28px;
     margin-left: auto;
 }
 .container-hero {
