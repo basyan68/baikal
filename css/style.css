@@ -59,7 +59,6 @@ img {
     max-width: 1920px;
     height: 940px;
     margin: 0 auto;
-    padding-top: 13px;
 }
 .header-text-chill {
     font-family: PT Serif;
@@ -83,6 +82,8 @@ img {
     font-size: 18px;
     line-height: 130%;
     color: #FFFFFF;
+    padding-top: 28px;
+    padding-bottom: 28px;
 }
 .contacts-icon {
     margin-right: 13px;
@@ -90,17 +91,37 @@ img {
 .page-header-top {
     display: flex;
     align-items: center;
-    margin-bottom: 39px;
+    /* margin-bottom: 39px; */
+}
+.header-logo-position {
+    display: flex;
+    margin-right: 190px;
 }
 .page-header-logo {
     display: inline-block;
     margin-right: 179px;
 }
 .logo-header-svg {
+    font-family: PT Serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.73;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.logo-header-svg img {
+    margin-right: 20px;
+}
+.header-text-tur {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #FFFFFF;
+    display: block;
 }
 .page-header-contacts {
     display: flex;
-    margin-right: 45px;
 }
 .page-header-contacts a {
     display: flex;
@@ -137,6 +158,7 @@ img {
     border-radius: 22px;
     background-color: transparent;
     padding: 19px 53px 20px 53px;
+    margin-left: auto;
 }
 .container-hero {
 
