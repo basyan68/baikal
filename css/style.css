@@ -210,7 +210,7 @@ img {
     background-color: transparent;
     margin-bottom: 184px;
     padding: 19px 20px  53px 53px;
-    display: inline-block;
+    display: flex;
 }
 .svg-strelka {
     display: flex;
