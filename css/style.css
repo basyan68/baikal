@@ -171,7 +171,7 @@ img {
     border-radius: 22px;
     background-color: transparent;
     padding: 13px 23px 13px 28px;
-    text-transform: uppercase;
+    margin-left: auto;
 }
 .hero-strelka-svg {
     display: flex;
@@ -194,7 +194,7 @@ img {
     color: #FFFFFF;
     margin-bottom: 94px;
 }
-.hero-button {
+.button-hero {
     font-weight: 500;
     font-size: 18px;
     line-height: 1.15;
@@ -209,6 +209,8 @@ img {
     border-radius: 30px;
     background-color: transparent;
     margin-bottom: 184px;
+    padding: 19px 20px  53px 53px;
+    display: inline-block;
 }
 .svg-strelka {
     display: flex;
