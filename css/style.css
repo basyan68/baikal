@@ -44,6 +44,9 @@ p {
 img {
     display: block;
 }
+textarea {
+    resize: none;
+}
 .container {
     width: 1150px;
     padding-left: 15px;
@@ -198,6 +201,7 @@ img {
     line-height: 130%;
     color: #FFFFFF;
     margin-bottom: 8px;
+    width: 724px;
 }
 .hero-text {
     font-weight: normal;
@@ -205,6 +209,7 @@ img {
     line-height: 140%;
     color: #FFFFFF;
     margin-bottom: 94px;
+    width: 562px;
 }
 .button-hero {
     font-weight: 500;
@@ -568,7 +573,7 @@ img {
 }
 .advantages-cifre {
     font-family: PT Serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 58px;
     line-height: 130%;
     color: var(--green-for-the-elements);
@@ -580,12 +585,58 @@ img {
 }
 .Book-now {
     font-family: PT Serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 30px;
     line-height: 130%;
     text-align: center;
     color: var(--title-color);
 }
+.form {
+    margin-left: auto;
+    margin-right: auto;
+}
+.field {
+    position: relative;
+    display: inline-flex;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #76767A;
+}
+.input {
+    padding-top: 11px;
+    padding-bottom: 12px;
+    padding-left: 14.3px;
+    margin-bottom: 20px;
+    margin-right: 32px;
+    width: 256px;
+}
+.label {
+    position: absolute;
+    bottom: 35px;
+    left: 14px;
+}
+.field .texterea {
+    top: 11px;
+    left: 14px;
+}
+.group-2 {
+    display: inline-flex;
+    flex-direction: column;
+}
+.group-2 input {
+    width: 153px;
+}
+.field textarea {
+    width: 655px;
+    height: 112px;
+}
+.input:focus + .label {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
 .footer {
     /* padding-top: 39px;
     padding-bottom: 45px; */
