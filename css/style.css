@@ -610,15 +610,18 @@ textarea {
     margin-bottom: 20px;
     margin-right: 32px;
     width: 256px;
+    outline: none;
 }
 .label {
     position: absolute;
-    bottom: 35px;
+    bottom: 34px;
     left: 14px;
+    outline: none;
 }
 .field .texterea {
     top: 11px;
     left: 14px;
+    outline: none;
 }
 .group-2 {
     display: inline-flex;
