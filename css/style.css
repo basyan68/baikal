@@ -649,6 +649,7 @@ textarea {
 .form {
     margin-left: auto;
     margin-right: auto;
+    width: 850px;
 }
 .field {
     position: relative;
@@ -657,13 +658,19 @@ textarea {
     font-size: 16px;
     line-height: 130%;
     color: #76767A;
+    margin-right: 32px;
+    margin-bottom: 20px;
+}
+.field:nth-last-child(-n+9) {
+    margin-bottom: 30px;
+}
+.field:nth-child(3n) {
+    margin-right: 0;
 }
 .input {
     padding-top: 11px;
     padding-bottom: 12px;
     padding-left: 14.3px;
-    margin-bottom: 20px;
-    margin-right: 32px;
     width: 256px;
     outline: none;
 }
@@ -685,16 +692,70 @@ textarea {
 .group-2 input {
     width: 153px;
 }
+.group-2 label:nth-child(2n) {
+    margin-bottom: 0;
+}
 .field textarea {
     width: 655px;
-    height: 112px;
+    height: 125px;
 }
 .input:focus + .label {
     position: absolute;
     z-index: -1;
     opacity: 0;
 }
-
+.button-form {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.16;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 19px 64.15px 20px 65.34px;
+    background-color: #0061D9;
+    border-radius: 30px;
+}
+.input-label {
+    position: relative;
+    display: flex;
+    
+}
+.personal-form-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-decoration-line: underline;
+    color: #76767A;
+}
+.custom-checkbox {
+    position: absolute;
+     z-index: -1;
+    opacity: 0;
+}
+.input-label::before {
+    content: '';
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 2px solid #76767A;
+    border-radius: 2px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.custom-checkbox:checked + .input-label::before {
+    border-color: #0050B2;
+    background-color: #0050B2;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 42 32'%3e%3cpath fill='%23fff' d='M6.263 15.205l-0.22-0.21-3.307 3.132 11.651 11.114 24.477-23.351-3.285-3.134-21.192 20.197-8.124-7.75z'/%3e%3c/svg%3e");
+    background-size: contain;
+    background-origin: border-box;
+}
+.position-button-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .footer {
     /* padding-top: 39px;
     padding-bottom: 45px; */
