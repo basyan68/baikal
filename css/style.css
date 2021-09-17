@@ -309,9 +309,17 @@ textarea {
     align-items: center; */
     display: flex;
 }
+.container-populyarity {
+    width: 1150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #D9D9DE; 
+    padding-bottom: 80px;
+}
 .populyarity {
-    padding-top: 76px;
-    padding-bottom: 80px;   
+    padding-top: 76px; 
 }
 .populyarity-title {
     font-family: PT Serif;
@@ -319,8 +327,47 @@ textarea {
     font-size: 30px;
     line-height: 1.35;
     color: var(--title-color);
+    margin-bottom: 40px;
 }
-.populyarity-list {
+.position-1 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    min-width: 544px;
+}
+.position-2 {
+    display: inline-flex;
+}
+.position-3  {
+    display: flex;
+}
+.position-1 .populyarity-position {
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+.position-4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.position-4 .populyarity-position {
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+.position-4 .populyarity-position:nth-child(4n) {
+    margin-right: 0;
+}
+.position-4 .populyarity-position:nth-child(5n) {
+    margin-bottom: 0;
+}
+.position-4 .populyarity-position:nth-child(6n) {
+    margin-bottom: 0;
+}
+.position-4 .populyarity-position:nth-child(7n) {
+    margin-bottom: 0;
+}
+.position-4 .populyarity-position:nth-child(8n) {
+    margin-bottom: 0;
+}
+/* .populyarity-list {
     display: flex;
     flex-wrap: wrap;
 }
@@ -329,7 +376,7 @@ textarea {
     height: 100%;
     margin-right: 32px;
 }
-..populyarity-list img {
+.populyarity-list img {
     height: 100%;
 }
 .populyarity-list .item:nth-child(7) {
@@ -343,7 +390,7 @@ textarea {
 }
 .populyarity-list .item-dacan {
     
-}
+} */
 .populyarity-position-title {
     position: absolute;
     top: 16px;
@@ -515,7 +562,15 @@ textarea {
 }
 .baikal-rest {
     padding-top: 80px;
+}
+.container-rest {
     padding-bottom: 65px;
+    border-bottom: 1px solid #D9D9DE;
+    width: 1150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .baikal-rest-title {
     font-family: PT Serif;
@@ -735,5 +790,3 @@ textarea {
     justify-content: flex-end;
     align-items: center;
 }
-
-
