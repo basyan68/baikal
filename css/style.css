@@ -422,7 +422,7 @@ textarea {
 }
 .populyarity-position-text-dacan {
     position: absolute;
-    bottom: 19px;
+    bottom: 50px;
     left: 33px;
     width: 218px;
     height: 42px;
@@ -713,6 +713,7 @@ textarea {
     padding: 19px 64.15px 20px 65.34px;
     background-color: #0061D9;
     border-radius: 30px;
+    border: none;
 }
 .input-label {
     position: relative;
