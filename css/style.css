@@ -319,6 +319,12 @@ textarea {
     margin-right: auto;
     border-bottom: 1px solid #D9D9DE; 
     padding-bottom: 80px;
+    position: relative;
+}
+.populyarity-position-all {
+    position: absolute;
+    bottom: 258px;
+    right: 0;
 }
 .populyarity {
     padding-top: 76px; 
@@ -374,33 +380,18 @@ textarea {
     grid-template-columns: repeat(4, 1fr);
     gap: 32px;
 }
-.populyarity-list .item {
-    width: 256px;
-    height: 100%;
-    margin-right: 32px;
-}
-.populyarity-list img {
-    height: 100%;
-}
-.populyarity-list .item:nth-child(7) {
-    margin-right: 0;
-}
-.populyarity-list .item:nth-child(11) {
-    margin-right: 0;
-}
-.populyarity-list .item:nth-child(15) {
-    margin-right: 0;
-}
-.populyarity-list .item-dacan {
-    
+.populyarity-list .item:nth-child(3) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
 }
 .populyarity-position-title {
     position: absolute;
     top: 16px;
     left: 17px;
     color: var(--main-white-color);
-    width: 218px;
-    height: 74px;
     font-weight: 500;
     font-size: 18px;
     line-height: 130%;
@@ -425,7 +416,7 @@ textarea {
 }
 .populyarity-position-text-dacan {
     position: absolute;
-    bottom: 50px;
+    bottom: 19px;
     left: 33px;
     width: 218px;
     height: 42px;
@@ -449,6 +440,7 @@ textarea {
 }
 .populyarity-position {
     position: relative;
+    display: inline-flex;
 }
 .map {
     padding-top: 70px;
