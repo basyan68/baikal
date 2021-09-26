@@ -43,6 +43,8 @@ p {
 }
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 textarea {
     resize: none;
@@ -329,7 +331,7 @@ textarea {
     color: var(--title-color);
     margin-bottom: 40px;
 }
-.position-1 {
+/* .position-1 {
     display: inline-flex;
     flex-wrap: wrap;
     min-width: 544px;
@@ -366,10 +368,11 @@ textarea {
 }
 .position-4 .populyarity-position:nth-child(8n) {
     margin-bottom: 0;
-}
-/* .populyarity-list {
-    display: flex;
-    flex-wrap: wrap;
+} */
+.populyarity-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
 }
 .populyarity-list .item {
     width: 256px;
@@ -390,7 +393,7 @@ textarea {
 }
 .populyarity-list .item-dacan {
     
-} */
+}
 .populyarity-position-title {
     position: absolute;
     top: 16px;
